@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- GET: dùng khi tìm kiếm, dữ liệu không nhạy cảm -->
+    <form action="/login" method="get">
+        <label>Tên</label>
+        <input type="text" name="name" value="">
+        <input type="submit" name="submit" value="Gửi Get">
+    </form>
+
+    <!-- POST: dùng khi đăng nhập, đăng ký, dữ liệu riêng tư -->
+    <form action="/login" method="post">
+        <label>Tên</label>
+        <input type="text" name="name" value="">
+        <input type="submit" name="submit" value="Gửi POST">
+     </form>
+    
+</body>
+</html>
