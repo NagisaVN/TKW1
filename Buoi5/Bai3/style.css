@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+div {
+    width: 25%;
+    padding: 20px;
+    border: 1.5px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+li {
+    margin-left: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    text-align: left;
+    background-color: rgba(70, 108, 51, 0.178);
+}
+input {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.submit {
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
