@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: rgb(10, 233, 236);
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+h1 {
+    padding: 20px;
+}
+#logo{
+    color:white;
+    padding: 10px;
+    width: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+.menu >a{
+    padding: 10px;
+    padding-right: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+.welcome {
+    width: 100%;
+    float: left;
+}
+.leftsidebar{
+    margin-left: 60px;
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+.content {
+    width: 33%;
+    border: 1px solid black;
+    float: right;
+    text-align: left;
+    padding: 20px;
+    margin-right: 30px;
+    margin: 30px;
+    line-height: 1.6;
+    
+}
+.content > a {
+    margin: 0px;
+    color: white;
+    text-align: right;
+    border: 1px solid red;
+    background-color: red;
+    padding: 2px;
+    float: right;
+    margin-bottom: 30px;
+}
+button {
+    font-size: 0.5;
+    color: white;
+    margin-top: 20px;
+    border: 3px solid transparent;
+    background-color: rgb(25, 189, 201);
+    padding: 5px;
+}
+button:hover {
+    background-color: rgb(10, 150, 160);
+}
+.noibat {
+    float: none;
+    background-color: rgb(228, 220, 220)  ;
+    text-align: center;
+    clear: both; /*cách các div không bị dính */
+    padding: 40px;
+}
+.noibat-list{ /*box*/
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    gap: 30px; /* khoảng cách giữa cách ô*/
+}
+.noibat-item {
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    line-height: 1.5;
+}
+.noibat-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /*dọc, mặc định là ngang*/
+    
+}
+.noibat-right{
+    flex: 1;
+}
+.doingu {
+    line-height: 1.5;
+    padding: 10px;
+    padding-left: 40px;
+}
