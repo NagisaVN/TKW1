@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+}
+.header {
+    background: linear-gradient(blue);
+    text-align: center;
+    font-size: white;  
+    padding: 50px;
+    color: white;
+    line-height: 1.5;
+}
+.header > p {
+    text-align: center;
+}
+.menu {
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.menu > a{
+    display: inline;
+    margin-right: 50px;
+    text-decoration: none; /* xóa gạch dưới */
+}
+.menu a:hover {
+    position: relative;
+    background-color: ;
+    color: black;
+}
+h2 {
+    padding: 20px;
+    text-align: left;
+}
+
+.main {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.card-warpper{ /* khóa học nổi bật */
+    display: flex;
+    gap: 100px;
+}
+.card {
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding: 20px;
+    line-height: 2;
+}
+table { /* bảng học phí */
+    /*cách làm bảng bự ra bằng width của main*/
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th {
+    background-color: blue;
+    color: white;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+tr:hover {
+    background-color: #888;
+}
+p, td {
+    opacity: 0.6;
+    text-align: left;
+}
+span {
+    color: blue;
+    font-weight: bold;
+}
+input, select, button, textarea {
+    width: 93%;
+    margin: 0 auto; 
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box; /* cho các ô bằng nhau */
+}
+.form {
+    border: 1px solid white;
+}
+.form button:focus {
+    background-color: black;
+    outline: 2px;
+}
+.form > button {
+    border-radius: 8px;
+    border: 3px solid transparent;
+    background-color: blue;
+    color: white;
+}
+.footer {
+    background-color: rgb(54, 54, 43);
+    text-align: center;
+    padding: 5px;
+    color: white
+}
+
