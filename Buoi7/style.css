@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body {
-    background-color: #888;
+    background-color: #fcf7f7;
 }
 .header {
     background: linear-gradient(blue);
@@ -17,6 +17,7 @@ body {
     text-align: center;
 }
 .menu {
+    background-color: white;
     text-align: center;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -46,6 +47,7 @@ h2 {
     gap: 100px;
 }
 .card {
+    background-color: white;
     text-align: left;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #888;
@@ -58,6 +60,7 @@ table { /* bảng học phí */
     width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
+    background-color: white;
 }
 th {
     background-color: blue;
@@ -86,7 +89,9 @@ input, select, button, textarea {
     box-sizing: border-box; /* cho các ô bằng nhau */
 }
 .form {
+    background-color: white;
     border: 1px solid white;
+    padding: 5px;
 }
 .form button:focus {
     background-color: black;
