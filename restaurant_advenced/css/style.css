@@ -11,6 +11,7 @@
     line-height: 2;
 }
 .menu {
+    background: white;
     text-align: center;
     position: sticky;
     top: 0;
@@ -26,8 +27,7 @@
     color: #A0522D;
 }
 .menu:hover {
-    background-color: #b5a4a4;
-    color: black;
+    background: rgba(143, 64, 135, 0.351);
 
 }
 .hero-section {
