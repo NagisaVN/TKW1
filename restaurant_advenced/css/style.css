@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    background: linear-gradient(#A0522D);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    line-height: 2;
+}
+.menu {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    scroll-behavior: smooth;
+    padding: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.menu > a {
+    display: inline;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #A0522D;
+}
+.menu:hover {
+    background-color: #b5a4a4;
+    color: black;
+
+}
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    line-height: 2.5;
+    background-color: rgb(235, 237, 243);
+}
+.hero-section > a {
+    border-radius: 50px;
+    border: 3px solid transparent;
+    background-color: #A0522D;
+    color: white;
+    width: 8%;
+    padding: 8px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    
+}
+.main h2 {
+    text-align: left;
+}
+.card-warpper {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.card {
+    flex: 1;
+    position: relative;
+    box-shadow: 0px 5px 15px #888;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    line-height: 2;
+    padding: 40px 20px 20px;
+    text-align: left;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card > a { /*best seller*/
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #e53935;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
+}
+.price {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #A0522D;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.overlay span {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card:hover .overlay {
+    opacity: 1;
+    border-radius: 12px;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+th {
+    background-color: #A0522D;
+    color: white;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+tr:hover {
+    background-color: #918a86;
+}
+td {
+    text-align: left;
+}
+h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+h3 {
+    padding-bottom: 15px;
+}
+.danhgia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.card-warpper-khach {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.card-khach {
+    flex: 1;
+    position: relative;
+    box-shadow: 0px 5px 15px #888;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    line-height: 2;
+    padding: 40px 20px 20px;
+    text-align: left;
+    border-radius: 12px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.datban {
+    width: 97%;
+    flex: 1;
+    position: relative;
+    box-shadow: 0px 5px 15px #888;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    line-height: 2;
+    padding: 40px 20px 20px;
+    text-align: left;
+    border-radius: 12px;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+input,select {
+    flex: 1;       
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.datban textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 90px;
+    margin-bottom: 16px;
+}
+
+.datban button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 999px;
+    border: none;
+    background: #8b5a2b;
+    color: white;
+    font-size: 16px;
+}
+
+.footer {
+    position: static;
+    padding: 20px;
+    background-color: #8b5a2b;
+    width: 100%;
+
+}
+.footer > a {
+    color: #443730;
+    text-decoration: none;
+}
+
